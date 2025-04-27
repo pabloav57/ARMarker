@@ -318,6 +318,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BeachsideTown
       objectReference: {fileID: 0}
+    - target: {fileID: 5262358242281827243, guid: 44af740032094bf48bddbf3f4644216f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
