@@ -119,6 +119,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &172607408 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5262358242281827243, guid: 44af740032094bf48bddbf3f4644216f,
+    type: 3}
+  m_PrefabInstance: {fileID: 821359449}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &207699001
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -447,7 +453,7 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 1
---- !u!1001 &650863134
+--- !u!1001 &821359449
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -455,6 +461,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1740618596333835435, guid: 44af740032094bf48bddbf3f4644216f,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740618596333835435, guid: 44af740032094bf48bddbf3f4644216f,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740618596333835435, guid: 44af740032094bf48bddbf3f4644216f,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 1740618596333835435, guid: 44af740032094bf48bddbf3f4644216f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -468,7 +489,7 @@ PrefabInstance:
     - target: {fileID: 1740618596333835435, guid: 44af740032094bf48bddbf3f4644216f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1740618596333835435, guid: 44af740032094bf48bddbf3f4644216f,
         type: 3}
@@ -505,21 +526,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5184339823404733563, guid: 44af740032094bf48bddbf3f4644216f,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5184339823404733563, guid: 44af740032094bf48bddbf3f4644216f,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5184339823404733563, guid: 44af740032094bf48bddbf3f4644216f,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.5
-      objectReference: {fileID: 0}
     - target: {fileID: 5262358242281827243, guid: 44af740032094bf48bddbf3f4644216f,
         type: 3}
       propertyPath: m_Name
@@ -527,20 +533,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5262358242281827243, guid: 44af740032094bf48bddbf3f4644216f,
         type: 3}
-      propertyPath: m_IsActive
-      value: 0
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 6001584948362688167, guid: 44af740032094bf48bddbf3f4644216f,
+        type: 3}
+      propertyPath: m_TagString
+      value: modelObject
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 44af740032094bf48bddbf3f4644216f, type: 3}
---- !u!1 &650863135 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5262358242281827243, guid: 44af740032094bf48bddbf3f4644216f,
-    type: 3}
-  m_PrefabInstance: {fileID: 650863134}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1167446570
 GameObject:
   m_ObjectHideFlags: 0
@@ -715,7 +720,7 @@ MonoBehaviour:
     _objectReferences:
     - {fileID: 207699003}
     - {fileID: 207699002}
-    - {fileID: 650863135}
+    - {fileID: 172607408}
 --- !u!4 &1576786777
 Transform:
   m_ObjectHideFlags: 0
@@ -1066,8 +1071,7 @@ MonoBehaviour:
   m_SerializedLibrary: {fileID: 11400000, guid: e9bfce5ea60e3894483fae40eb674a2f,
     type: 2}
   m_MaxNumberOfMovingImages: 0
-  m_TrackedImagePrefab: {fileID: 5262358242281827243, guid: 44af740032094bf48bddbf3f4644216f,
-    type: 3}
+  m_TrackedImagePrefab: {fileID: 172607408}
 --- !u!4 &2512387470860572925
 Transform:
   m_ObjectHideFlags: 0
@@ -1186,7 +1190,7 @@ SceneRoots:
   - {fileID: 2512387470422636640}
   - {fileID: 1167446573}
   - {fileID: 410087041}
-  - {fileID: 650863134}
   - {fileID: 207699001}
   - {fileID: 1576786777}
   - {fileID: 1458756646}
+  - {fileID: 821359449}
